@@ -2,12 +2,16 @@
     "private": true,
     "type": "module",
     "scripts": {
+        "watch": "vite",
         "dev": "vite",
+        "prod": "vite build",
         "build": "vite build"
     },
     "devDependencies": {
         "axios": "^1.6.4",
+        "bootstrap": "^5.3.3",
         "laravel-vite-plugin": "^1.0",
+        "sass": "^1.77.2",
         "vite": "^5.0"
     }
 }
