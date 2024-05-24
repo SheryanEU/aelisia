@@ -12,7 +12,7 @@
 
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>
-    <body class="text-center">
+    <body class="d-flex align-content-center py-5 text-center">
         @yield('content')
     </body>
 </html>
